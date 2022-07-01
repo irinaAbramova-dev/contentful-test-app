@@ -13,10 +13,10 @@ module.exports = {
         cyan: '#79FFE1',
       },
       spacing: {
-        28: '7rem',
+        28: '4rem',
       },
       letterSpacing: {
-        tighter: '-.04em',
+        tighter: '-.03em',
       },
       lineHeight: {
         tight: 1.2,
