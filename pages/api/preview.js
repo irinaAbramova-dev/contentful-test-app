@@ -5,7 +5,7 @@ export default async function preview(req, res) {
 
   console.log(process.env)
   if (secret !== process.env.CONTENTFUL_PREVIEW_SECRET || !slug) {
-    return res.status(401).json({ message: 'Invalid token' })
+    return res.status(401).json({ message: 'Invalid token', env: process.env.CONTENTFUL_PREVIEW_SECRET })
   }
 
   // Fetch the headless CMS to check if the provided `slug` exists
