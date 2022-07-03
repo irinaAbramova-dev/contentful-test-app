@@ -30,9 +30,8 @@ export default function Post({ post, morePosts, preview }) {
             <article>
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
+                  {post.title}
                 </title>
-                {/*<meta property="og:image" content={post.coverImage.url} />*/}
               </Head>
               <PostHeader
                 title={post.title}
