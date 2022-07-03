@@ -16,7 +16,7 @@ module.exports = {
         28: '7rem',
       },
       letterSpacing: {
-        tighter: '-.04em',
+        tighter: '-.03em',
       },
       lineHeight: {
         tight: 1.2,
