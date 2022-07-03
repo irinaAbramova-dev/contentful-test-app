@@ -39,7 +39,6 @@ export default function Post({ post, morePosts, preview }) {
                 date={post.date}
                 author={post.author}
               />
-              <PostBody content={post.content} />
             </article>
             <SectionSeparator />
             {morePosts && morePosts.length > 0 && (
